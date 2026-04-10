@@ -20,7 +20,7 @@ The repository includes:
 
 ## ⚠️ Repository Scope
 
-This is a **sanitized public release** of the original project.
+This is a **public release** of the original project.
 
 The following have been removed:
 - Sensitive or proprietary code 
@@ -32,3 +32,37 @@ The repository preserves the **core training workflow and methodology** used in 
 ---
 
 ## 📂 Project Structure
+
+```
+.
+├── Architectures/          # Model architecture definitions (C-RNN variants, CNNs, ablations)
+├── Configs/                # YAML configuration files for analysis
+├── Datasets/
+│   ├── listening_test/     # Listening test scenes with features, FFT, and ground truth
+│   └── ...                 # Additional datasets (not included in public release)
+├── Experiments/
+│   ├── 6000scenes_no_bg/   # Main experiment results, plots, and significance tests
+│   ├── CRNN_V15_*/         # Model training runs with checkpoints and predictions
+│   ├── Perceptual_*/       # Perceptual loss experiments (MAE/MSE, with/without BG)
+│   └── ...                 # Additional experiments (not included in public release)
+├── Modules/
+│   ├── AMBIQUAL/           # (external) Ambisonics quality metric
+│   ├── AmbiScaper/         # (external) Ambisonics scene generation
+│   ├── BINASPECT/          # (external) Binaural audio processing
+│   └── DirAC_Synthesis/    # Parametric spatial audio synthesis
+├── src/
+│   ├── Analysis/           # Feature extraction and analysis pipeline
+│   ├── Evaluation/         # AMBIQUAL evaluation scripts
+│   ├── Training/           # Training notebook (BIN2AMBI)
+│   └── utils/              # Plotting, significance testing, and helper utilities
+├── requirements.txt
+└── README.md
+```
+
+> **Note:** Modules marked as *(external)* are third-party repositories not included in this release.
+
+| Module | Repository |
+|--------|-----------|
+| AMBIQUAL | https://github.com/QxLabIreland/Ambiqual |
+| AmbiScaper | https://github.com/Nilson/ambiscaper |
+| BINASPECT | https://github.com/QxLabIreland/Binaspect |
