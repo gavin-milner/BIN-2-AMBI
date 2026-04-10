@@ -1,6 +1,6 @@
 # 🎧 Binaural to Ambisonics Conversion – Training Pipeline
 
-This repository contains the **training component** of a binaural to ambisonics conversion pipeline developed as part of a final year thesis at Trinity College Dublin.
+This repository contains the **training component** of a binaural to ambisonics conversion pipeline developed as part of a final year MAI thesis in Electronic and Computer Engineering at Trinity College Dublin.
 
 The focus of this repository is on the **model training and experimental pipeline** used in the project.
 
@@ -18,7 +18,7 @@ The repository includes:
 
 ---
 
-## ⚠️ Repository Scope
+## 📝 Repository Scope
 
 This is a **public release** of the original project.
 
