@@ -48,7 +48,7 @@ The repository preserves the **core training workflow and evaluation methodology
 ├── Modules/
 │   ├── AMBIQUAL/           # (external) Ambisonics quality metric
 │   ├── AmbiScaper/         # (external) Ambisonics scene generation
-│   ├── BINASPECT/          # (external) Binaural audio processing
+│   ├── BINASPECT/          # (external) Binaural audio analysis
 │   └── DirAC_Synthesis/    # Parametric spatial audio synthesis
 ├── src/
 │   ├── Analysis/           # Feature extraction and analysis pipeline
