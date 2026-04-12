@@ -1,0 +1,259 @@
+{
+  "metric_key": "per_scene_vert_wmae",
+  "metric_display_name": "Per-Scene Vertical WMAE (\u00b0)",
+  "wilcoxon_alternative": "greater",
+  "wilcoxon_zero_method": "wilcox",
+  "comparisons": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_vert_wmae",
+      "n_common_scenes": 600,
+      "mean_model_a": 14.57167413107632,
+      "std_model_a": 6.429641105738156,
+      "mean_model_b": 14.809099151296705,
+      "std_model_b": 6.710076085944772,
+      "mean_paired_improvement": 0.2374250202203859,
+      "median_paired_improvement": -0.10593029281268607,
+      "std_paired_improvement": 3.3951550824618275,
+      "p50_improvement": -0.10593029281268607,
+      "p90_improvement": 3.1622690579221118,
+      "p95_improvement": 5.520785047019493,
+      "p99_improvement": 11.084285366904295,
+      "n_improved": 284,
+      "n_worsened": 316,
+      "n_tied": 0,
+      "percent_improved": 47.333333333333336,
+      "percent_worsened": 52.666666666666664,
+      "percent_tied": 0.0,
+      "effect_sign_fraction": -0.05333333333333334,
+      "wilcoxon_alternative": "greater",
+      "wilcoxon_zero_method": "wilcox",
+      "wilcoxon_statistic": 89754.0,
+      "wilcoxon_pvalue": 0.5371362331627936,
+      "sign_test": {
+        "n_nonzero": 600,
+        "n_positive": 284,
+        "n_negative": 316,
+        "pvalue": 0.9110697163122075,
+        "alternative": "greater"
+      },
+      "symmetry_check": {
+        "n": 600,
+        "skewness": 1.169169228891088,
+        "mean_minus_median_over_std": 0.1011309659481313,
+        "warning": "Paired differences may be strongly skewed / asymmetric for Wilcoxon: abs(skewness)=1.169 exceeds 1.000. Consider interpreting Wilcoxon alongside the sign test and the histogram."
+      },
+      "histogram_path": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_histograms/accdoa_v4_model_w_background_vs_accdoa_v4_model_w_background_static_per_scene_vert_wmae_hist.pdf"
+    }
+  ],
+  "bootstrap_tail_analysis": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_vert_wmae",
+      "n_common_scenes": 600,
+      "quantile_results": [
+        {
+          "quantile": 90,
+          "model_a_quantile": 22.66486689621699,
+          "model_b_quantile": 23.013728050095086,
+          "difference_b_minus_a": 0.34886115387809724,
+          "ci_level": 0.95,
+          "ci_lower": -0.629194927596405,
+          "ci_upper": 1.3747139231022452,
+          "bootstrap_pvalue_greater": 0.2171782821717828,
+          "n_resamples": 10000,
+          "seed": 132
+        },
+        {
+          "quantile": 95,
+          "model_a_quantile": 25.872144562452995,
+          "model_b_quantile": 26.196867067862375,
+          "difference_b_minus_a": 0.32472250540937964,
+          "ci_level": 0.95,
+          "ci_lower": -1.0711073939172548,
+          "ci_upper": 2.6539822326736098,
+          "bootstrap_pvalue_greater": 0.25507449255074494,
+          "n_resamples": 10000,
+          "seed": 137
+        },
+        {
+          "quantile": 99,
+          "model_a_quantile": 32.88780342355341,
+          "model_b_quantile": 33.24055748584529,
+          "difference_b_minus_a": 0.3527540622918792,
+          "ci_level": 0.95,
+          "ci_lower": -4.496421438081626,
+          "ci_upper": 5.525629843800863,
+          "bootstrap_pvalue_greater": 0.3301669833016698,
+          "n_resamples": 10000,
+          "seed": 141
+        }
+      ],
+      "interpretation_note": "Differences are reported as quantile(Model B) - quantile(Model A). Positive values mean Model A has lower tail error than Model B."
+    }
+  ],
+  "top_improvement_scenes": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_vert_wmae",
+      "top_k": 6,
+      "top_scenes": [
+        {
+          "scene_id": "scene05607",
+          "model_a_value": 23.69441785951571,
+          "model_b_value": 49.25340171437058,
+          "improvement_b_minus_a": 25.558983854854873
+        },
+        {
+          "scene_id": "scene05451",
+          "model_a_value": 23.621918171599614,
+          "model_b_value": 45.23509799433147,
+          "improvement_b_minus_a": 21.613179822731855
+        },
+        {
+          "scene_id": "scene05818",
+          "model_a_value": 14.531044544770612,
+          "model_b_value": 32.65416944073888,
+          "improvement_b_minus_a": 18.12312489596827
+        },
+        {
+          "scene_id": "scene05583",
+          "model_a_value": 15.949746691907468,
+          "model_b_value": 30.81176920355551,
+          "improvement_b_minus_a": 14.862022511648043
+        },
+        {
+          "scene_id": "scene05897",
+          "model_a_value": 18.82376102696013,
+          "model_b_value": 32.69179115345525,
+          "improvement_b_minus_a": 13.868030126495118
+        },
+        {
+          "scene_id": "scene05763",
+          "model_a_value": 10.836336707304671,
+          "model_b_value": 24.30394630076059,
+          "improvement_b_minus_a": 13.467609593455919
+        }
+      ],
+      "interpretation_note": "Scenes are ranked by (Model B - Model A) descending (largest difference first). Positive values mean Model A has lower error than Model B."
+    }
+  ],
+  "bottom_improvement_scenes": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_vert_wmae",
+      "top_k": 6,
+      "bottom_scenes": [
+        {
+          "scene_id": "scene05557",
+          "model_a_value": 41.242244715370916,
+          "model_b_value": 17.517305051594224,
+          "improvement_b_minus_a": -23.72493966377669
+        },
+        {
+          "scene_id": "scene05652",
+          "model_a_value": 38.54664093707587,
+          "model_b_value": 25.477488348862877,
+          "improvement_b_minus_a": -13.069152588212994
+        },
+        {
+          "scene_id": "scene05774",
+          "model_a_value": 17.69048820322535,
+          "model_b_value": 6.934368758320795,
+          "improvement_b_minus_a": -10.756119444904556
+        },
+        {
+          "scene_id": "scene05664",
+          "model_a_value": 23.8390609395756,
+          "model_b_value": 13.334970039943965,
+          "improvement_b_minus_a": -10.504090899631635
+        },
+        {
+          "scene_id": "scene05856",
+          "model_a_value": 27.13964713714482,
+          "model_b_value": 16.64693559628482,
+          "improvement_b_minus_a": -10.49271154086
+        },
+        {
+          "scene_id": "scene05731",
+          "model_a_value": 21.994153628490764,
+          "model_b_value": 11.939679385816424,
+          "improvement_b_minus_a": -10.05447424267434
+        }
+      ],
+      "interpretation_note": "Scenes are ranked by (Model B - Model A) ascending (smallest difference first). These are scenes where Model A's advantage over Model B is smallest, or where Model B outperforms Model A."
+    }
+  ],
+  "closest_to_zero_scenes": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_vert_wmae",
+      "top_k": 6,
+      "closest_scenes": [
+        {
+          "scene_id": "scene05419",
+          "model_a_value": 9.182147111141566,
+          "model_b_value": 9.181363650547357,
+          "improvement_b_minus_a": -0.0007834605942083073,
+          "abs_difference": 0.0007834605942083073
+        },
+        {
+          "scene_id": "scene05474",
+          "model_a_value": 22.70006397719235,
+          "model_b_value": 22.700862391806197,
+          "improvement_b_minus_a": 0.0007984146138468873,
+          "abs_difference": 0.0007984146138468873
+        },
+        {
+          "scene_id": "scene05686",
+          "model_a_value": 11.83360987433176,
+          "model_b_value": 11.83267622336638,
+          "improvement_b_minus_a": -0.0009336509653792291,
+          "abs_difference": 0.0009336509653792291
+        },
+        {
+          "scene_id": "scene05807",
+          "model_a_value": 3.7808208846530085,
+          "model_b_value": 3.7789106711876292,
+          "improvement_b_minus_a": -0.001910213465379229,
+          "abs_difference": 0.001910213465379229
+        },
+        {
+          "scene_id": "scene05683",
+          "model_a_value": 2.681681586009762,
+          "model_b_value": 2.666405729859632,
+          "improvement_b_minus_a": -0.01527585615012983,
+          "abs_difference": 0.01527585615012983
+        },
+        {
+          "scene_id": "scene05584",
+          "model_a_value": 1.8752976174991938,
+          "model_b_value": 1.8946898926427485,
+          "improvement_b_minus_a": 0.019392275143554683,
+          "abs_difference": 0.019392275143554683
+        }
+      ],
+      "interpretation_note": "Scenes are ranked by abs(Model B - Model A) ascending. These are the scenes where the two models perform most similarly."
+    }
+  ],
+  "group_plots": {
+    "n_events_plot": null,
+    "snr_plot": null,
+    "boxplot_n_events": null
+  }
+}

@@ -1,0 +1,152 @@
+===== SIGNIFICANCE RESULTS =====
+Metric: Per-Scene WMAE (°)
+Alternative Hypothesis: greater
+Zero Method: wilcox
+
+========================================================================
+Comparison: Rotation Model vs Static Model
+Split: test
+Metric: Per-Scene WMAE (°)
+Common Scenes: 599
+
+Model A Mean: 11.566135° | Std: 7.497024°
+Model B Mean: 11.702732° | Std: 8.406561°
+
+Mean Paired Improvement (B - A):   0.136598°
+Median Paired Improvement (B - A): -0.252203°
+Std Paired Improvement:            4.123255°
+P50 Improvement: -0.252203° | P90: 3.213702° | P95: 5.416567° | P99: 15.408175°
+
+Scenes Improved: 258 (43.07%)
+Scenes Worsened: 341 (56.93%)
+Scenes Tied:     0 (0.00%)
+Effect Sign Fraction: -0.138564
+
+Wilcoxon Alternative: greater
+Wilcoxon Zero Method: wilcox
+Wilcoxon Statistic:   79343.000000
+Wilcoxon p-value:     9.934239e-01
+
+Sign Test Alternative: greater
+Sign Test Nonzero Pairs: 599
+Sign Test Positive:      258
+Sign Test Negative:      341
+Sign Test p-value:       9.997063e-01
+
+Symmetry Check for Paired Differences:
+  Skewness: 4.270878
+  |Mean - Median| / Std: 0.094295
+  Paired differences may be strongly skewed / asymmetric for Wilcoxon: abs(skewness)=4.271 exceeds 1.000. Consider interpreting Wilcoxon alongside the sign test and the histogram.
+Histogram: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_histograms/rotation_model_vs_static_model_per_scene_wmae_hist.pdf
+
+========================================================================
+BOOTSTRAP TAIL ANALYSIS
+Resamples: 10000
+CI Level: 0.95
+Quantiles: [90, 95, 99]
+Random Seed: 42
+
+========================================================================
+BOOTSTRAP TAIL ANALYSIS: Rotation Model vs Static Model
+Split: test
+Metric: Per-Scene WMAE (°)
+Common Scenes: 599
+
+Model A source: Rotation Model (first model in the pairwise comparison / first aligned metric array)
+Model B source: Static Model (second model in the pairwise comparison / second aligned metric array)
+
+Differences are reported as quantile(Model B) - quantile(Model A). Positive values mean Model A has lower tail error than Model B.
+
+90th Percentile Analysis
+  Model A 90th percentile: 22.493337°
+  Model B 90th percentile: 23.101949°
+  Difference (B - A):       0.608612°
+  95% Bootstrap CI:     [-0.813184°, 2.161747°]
+  One-sided bootstrap p-value (H1: Model A has lower 90th percentile error): 2.330767e-01
+  Interpretation: The CI crosses 0, so the difference in the 90th percentile is inconclusive.
+
+95th Percentile Analysis
+  Model A 95th percentile: 25.547401°
+  Model B 95th percentile: 27.421866°
+  Difference (B - A):       1.874466°
+  95% Bootstrap CI:     [0.297270°, 3.705054°]
+  One-sided bootstrap p-value (H1: Model A has lower 95th percentile error): 6.099390e-03
+  Interpretation: The entire CI is above 0, which supports that Model A has lower 95th percentile error than Model B.
+
+99th Percentile Analysis
+  Model A 99th percentile: 32.546197°
+  Model B 99th percentile: 35.536292°
+  Difference (B - A):       2.990095°
+  95% Bootstrap CI:     [-1.776437°, 8.830421°]
+  One-sided bootstrap p-value (H1: Model A has lower 99th percentile error): 9.609039e-02
+  Interpretation: The CI crosses 0, so the difference in the 99th percentile is inconclusive.
+
+
+========================================================================
+TOP IMPROVEMENT SCENES ANALYSIS
+
+========================================================================
+TOP 10 SCENES WITH LARGEST IMPROVEMENT
+Comparison: Rotation Model vs Static Model
+Split: test
+
+Model A source: Rotation Model
+Model B source: Static Model
+Scenes are ranked by (Model B - Model A). Positive values mean Model A has lower error than Model B.
+
+1. Scene ID: scene05728
+   Model A (Rotation Model): 27.220955°
+   Model B (Static Model): 75.074333°
+   Improvement (B - A): 47.853378°
+
+2. Scene ID: scene05898
+   Model A (Rotation Model): 15.441378°
+   Model B (Static Model): 49.307548°
+   Improvement (B - A): 33.866171°
+
+3. Scene ID: scene05463
+   Model A (Rotation Model): 13.765188°
+   Model B (Static Model): 33.043187°
+   Improvement (B - A): 19.277999°
+
+4. Scene ID: scene05946
+   Model A (Rotation Model): 13.109955°
+   Model B (Static Model): 31.774795°
+   Improvement (B - A): 18.664840°
+
+5. Scene ID: scene05775
+   Model A (Rotation Model): 11.514793°
+   Model B (Static Model): 29.490955°
+   Improvement (B - A): 17.976162°
+
+6. Scene ID: scene05709
+   Model A (Rotation Model): 16.168307°
+   Model B (Static Model): 32.764439°
+   Improvement (B - A): 16.596132°
+
+7. Scene ID: scene05627
+   Model A (Rotation Model): 6.995288°
+   Model B (Static Model): 22.379218°
+   Improvement (B - A): 15.383931°
+
+8. Scene ID: scene05512
+   Model A (Rotation Model): 20.324045°
+   Model B (Static Model): 35.532454°
+   Improvement (B - A): 15.208410°
+
+9. Scene ID: scene05835
+   Model A (Rotation Model): 28.437547°
+   Model B (Static Model): 40.014715°
+   Improvement (B - A): 11.577168°
+
+10. Scene ID: scene05461
+   Model A (Rotation Model): 18.515274°
+   Model B (Static Model): 29.758143°
+   Improvement (B - A): 11.242869°
+
+
+========================================================================
+GROUP PLOTS
+WMAE vs Number of Sources Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_num_sources_with_std.pdf
+WMAE vs SNR Bucket Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_snr_bucket_with_std.pdf
+WMAE Box Plot by Sources: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_num_sources_boxplot.pdf

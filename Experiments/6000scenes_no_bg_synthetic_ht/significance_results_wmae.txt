@@ -1,0 +1,218 @@
+===== SIGNIFICANCE RESULTS =====
+Metric: Per-Scene WMAE (°)
+Alternative Hypothesis: greater
+Zero Method: wilcox
+
+========================================================================
+Comparison: ACCDOA V4 Model No Background Synthetic vs ACCDOA V4 Model No Background Synthetic STATIC
+Split: test
+Metric: Per-Scene WMAE (°)
+Common Scenes: 599
+
+Model A Mean: 11.566135° | Std: 7.497024°
+Model B Mean: 11.702732° | Std: 8.406561°
+
+Mean Paired Improvement (B - A):   0.136598°
+Median Paired Improvement (B - A): -0.252203°
+Std Paired Improvement:            4.123255°
+P50 Improvement: -0.252203° | P90: 3.213702° | P95: 5.416567° | P99: 15.408175°
+
+Scenes Improved: 258 (43.07%)
+Scenes Worsened: 341 (56.93%)
+Scenes Tied:     0 (0.00%)
+Effect Sign Fraction: -0.138564
+
+Wilcoxon Alternative: greater
+Wilcoxon Zero Method: wilcox
+Wilcoxon Statistic:   79343.000000
+Wilcoxon p-value:     9.934239e-01
+
+Sign Test Alternative: greater
+Sign Test Nonzero Pairs: 599
+Sign Test Positive:      258
+Sign Test Negative:      341
+Sign Test p-value:       9.997063e-01
+
+Symmetry Check for Paired Differences:
+  Skewness: 4.270878
+  |Mean - Median| / Std: 0.094295
+  Paired differences may be strongly skewed / asymmetric for Wilcoxon: abs(skewness)=4.271 exceeds 1.000. Consider interpreting Wilcoxon alongside the sign test and the histogram.
+Histogram: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_histograms/accdoa_v4_model_no_background_synthetic_vs_accdoa_v4_model_no_background_synthetic_static_per_scene_wmae_hist.pdf
+
+========================================================================
+BOOTSTRAP TAIL ANALYSIS
+Resamples: 10000
+CI Level: 0.95
+Quantiles: [90, 95, 99]
+Random Seed: 42
+
+========================================================================
+BOOTSTRAP TAIL ANALYSIS: ACCDOA V4 Model No Background Synthetic vs ACCDOA V4 Model No Background Synthetic STATIC
+Split: test
+Metric: Per-Scene WMAE (°)
+Common Scenes: 599
+
+Model A source: ACCDOA V4 Model No Background Synthetic (first model in the pairwise comparison / first aligned metric array)
+Model B source: ACCDOA V4 Model No Background Synthetic STATIC (second model in the pairwise comparison / second aligned metric array)
+
+Differences are reported as quantile(Model B) - quantile(Model A). Positive values mean Model A has lower tail error than Model B.
+
+90th Percentile Analysis
+  Model A 90th percentile: 22.493337°
+  Model B 90th percentile: 23.101949°
+  Difference (B - A):       0.608612°
+  95% Bootstrap CI:     [-0.813184°, 2.161747°]
+  One-sided bootstrap p-value (H1: Model A has lower 90th percentile error): 2.330767e-01
+  Interpretation: The CI crosses 0, so the difference in the 90th percentile is inconclusive.
+
+95th Percentile Analysis
+  Model A 95th percentile: 25.547401°
+  Model B 95th percentile: 27.421866°
+  Difference (B - A):       1.874466°
+  95% Bootstrap CI:     [0.297270°, 3.705054°]
+  One-sided bootstrap p-value (H1: Model A has lower 95th percentile error): 6.099390e-03
+  Interpretation: The entire CI is above 0, which supports that Model A has lower 95th percentile error than Model B.
+
+99th Percentile Analysis
+  Model A 99th percentile: 32.546197°
+  Model B 99th percentile: 35.536292°
+  Difference (B - A):       2.990095°
+  95% Bootstrap CI:     [-1.776437°, 8.830421°]
+  One-sided bootstrap p-value (H1: Model A has lower 99th percentile error): 9.609039e-02
+  Interpretation: The CI crosses 0, so the difference in the 99th percentile is inconclusive.
+
+
+========================================================================
+TOP IMPROVEMENT SCENES ANALYSIS
+
+========================================================================
+TOP 6 SCENES WITH LARGEST IMPROVEMENT (WORST FOR Model B)
+Comparison: ACCDOA V4 Model No Background Synthetic vs ACCDOA V4 Model No Background Synthetic STATIC
+Split: test
+
+Model A source: ACCDOA V4 Model No Background Synthetic
+Model B source: ACCDOA V4 Model No Background Synthetic STATIC
+Scenes are ranked by (Model B - Model A) descending (largest difference first). Positive values mean Model A has lower error than Model B.
+
+1. Scene ID: scene05728
+   Model A (ACCDOA V4 Model No Background Synthetic): 27.220955°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 75.074333°
+   Improvement (B - A): 47.853378°
+
+2. Scene ID: scene05898
+   Model A (ACCDOA V4 Model No Background Synthetic): 15.441378°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 49.307548°
+   Improvement (B - A): 33.866171°
+
+3. Scene ID: scene05463
+   Model A (ACCDOA V4 Model No Background Synthetic): 13.765188°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 33.043187°
+   Improvement (B - A): 19.277999°
+
+4. Scene ID: scene05946
+   Model A (ACCDOA V4 Model No Background Synthetic): 13.109955°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 31.774795°
+   Improvement (B - A): 18.664840°
+
+5. Scene ID: scene05775
+   Model A (ACCDOA V4 Model No Background Synthetic): 11.514793°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 29.490955°
+   Improvement (B - A): 17.976162°
+
+6. Scene ID: scene05709
+   Model A (ACCDOA V4 Model No Background Synthetic): 16.168307°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 32.764439°
+   Improvement (B - A): 16.596132°
+
+
+========================================================================
+BOTTOM IMPROVEMENT SCENES ANALYSIS
+
+========================================================================
+TOP 6 SCENES WITH SMALLEST IMPROVEMENT (BEST FOR Model B)
+Comparison: ACCDOA V4 Model No Background Synthetic vs ACCDOA V4 Model No Background Synthetic STATIC
+Split: test
+
+Model A source: ACCDOA V4 Model No Background Synthetic
+Model B source: ACCDOA V4 Model No Background Synthetic STATIC
+Scenes are ranked by (Model B - Model A) ascending (smallest difference first). These are scenes where Model A's advantage over Model B is smallest, or where Model B outperforms Model A.
+
+1. Scene ID: scene05665
+   Model A (ACCDOA V4 Model No Background Synthetic): 41.417683°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 28.307743°
+   Improvement (B - A): -13.109939°
+
+2. Scene ID: scene05710
+   Model A (ACCDOA V4 Model No Background Synthetic): 31.149228°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 19.337420°
+   Improvement (B - A): -11.811808°
+
+3. Scene ID: scene05419
+   Model A (ACCDOA V4 Model No Background Synthetic): 20.782890°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 9.183266°
+   Improvement (B - A): -11.599624°
+
+4. Scene ID: scene05911
+   Model A (ACCDOA V4 Model No Background Synthetic): 31.156520°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 20.480076°
+   Improvement (B - A): -10.676444°
+
+5. Scene ID: scene05587
+   Model A (ACCDOA V4 Model No Background Synthetic): 32.545200°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 21.995199°
+   Improvement (B - A): -10.550001°
+
+6. Scene ID: scene05816
+   Model A (ACCDOA V4 Model No Background Synthetic): 27.854491°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 20.298287°
+   Improvement (B - A): -7.556204°
+
+
+========================================================================
+CLOSEST TO ZERO SCENES ANALYSIS (NEAR DRAWS)
+
+========================================================================
+TOP 6 SCENES WITH DIFFERENCE CLOSEST TO ZERO (NEAR DRAWS)
+Comparison: ACCDOA V4 Model No Background Synthetic vs ACCDOA V4 Model No Background Synthetic STATIC
+Split: test
+
+Model A source: ACCDOA V4 Model No Background Synthetic
+Model B source: ACCDOA V4 Model No Background Synthetic STATIC
+Scenes are ranked by abs(Model B - Model A) ascending. These are the scenes where the two models perform most similarly.
+
+1. Scene ID: scene05706
+   Model A (ACCDOA V4 Model No Background Synthetic): 3.510499°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 3.502316°
+   Difference (B - A): -0.008183° (abs: 0.008183°)
+
+2. Scene ID: scene05471
+   Model A (ACCDOA V4 Model No Background Synthetic): 7.887041°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 7.906969°
+   Difference (B - A): 0.019928° (abs: 0.019928°)
+
+3. Scene ID: scene05491
+   Model A (ACCDOA V4 Model No Background Synthetic): 2.395700°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 2.416323°
+   Difference (B - A): 0.020623° (abs: 0.020623°)
+
+4. Scene ID: scene05406
+   Model A (ACCDOA V4 Model No Background Synthetic): 8.295893°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 8.323590°
+   Difference (B - A): 0.027697° (abs: 0.027697°)
+
+5. Scene ID: scene05407
+   Model A (ACCDOA V4 Model No Background Synthetic): 3.882809°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 3.911564°
+   Difference (B - A): 0.028756° (abs: 0.028756°)
+
+6. Scene ID: scene05892
+   Model A (ACCDOA V4 Model No Background Synthetic): 24.641876°
+   Model B (ACCDOA V4 Model No Background Synthetic STATIC): 24.612470°
+   Difference (B - A): -0.029406° (abs: 0.029406°)
+
+
+========================================================================
+GROUP PLOTS
+WMAE vs Number of Sources Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_num_sources_with_std.pdf
+WMAE vs SNR Bucket Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_snr_bucket_with_std.pdf
+WMAE Box Plot by Sources: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes_no_bg_synthetic_ht/significance_plots/wmae_vs_num_sources_boxplot.pdf

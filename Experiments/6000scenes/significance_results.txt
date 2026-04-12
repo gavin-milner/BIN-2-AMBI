@@ -1,0 +1,51 @@
+===== SIGNIFICANCE RESULTS =====
+Experiment: 6000scenes
+Plot Title Suffix: (W/Background)
+Metric: Per-Scene WMAE (°)
+Alternative Hypothesis: greater
+Zero Method: wilcox
+
+========================================================================
+Comparison: ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC
+Split: test
+Metric: Per-Scene WMAE (°)
+Common Scenes: 600
+
+Model A Mean: 23.745706° | Std: 10.414517°
+Model B Mean: 23.821174° | Std: 10.890862°
+
+Mean Paired Improvement (B - A):   0.075469°
+Median Paired Improvement (B - A): -0.482323°
+Std Paired Improvement:            4.875574°
+P50 Improvement: -0.482323° | P90: 3.564815° | P95: 6.142551° | P99: 24.959373°
+
+Scenes Improved: 243 (40.50%)
+Scenes Worsened: 357 (59.50%)
+Scenes Tied:     0 (0.00%)
+Effect Sign Fraction: -0.190000
+
+Wilcoxon Alternative: greater
+Wilcoxon Zero Method: wilcox
+Wilcoxon Statistic:   74676.000000
+Wilcoxon p-value:     9.998651e-01
+
+Sign Test Alternative: greater
+Sign Test Nonzero Pairs: 600
+Sign Test Positive:      243
+Sign Test Negative:      357
+Sign Test p-value:       9.999988e-01
+
+Symmetry Check for Paired Differences:
+  Skewness: 2.960145
+  |Mean - Median| / Std: 0.114405
+  Paired differences may be strongly skewed / asymmetric for Wilcoxon: abs(skewness)=2.960 exceeds 1.000. Consider interpreting Wilcoxon alongside the sign test and the histogram.
+Histogram: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_histograms/accdoa_v4_model_w_background_vs_accdoa_v4_model_w_background_static_per_scene_wmae_hist.pdf
+
+========================================================================
+GROUP PLOTS
+WMAE vs Number of Sources Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_num_sources_with_std.pdf
+WMAE vs SNR Bucket Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_snr_bucket_with_std.pdf
+WMAE vs Difficulty Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_difficulty_with_std.pdf
+WMAE Box Plot by Sources: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_num_sources_boxplot.pdf
+WMAE Box Plot by Ambiguity: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_ambiguity_category_boxplot.pdf
+WMAE vs N Sources per SNR Bucket Plot: /Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_nsources_per_snr_bucket.pdf

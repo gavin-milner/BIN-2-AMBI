@@ -164,7 +164,7 @@ def plot_la_vs_sources(n_sources_list: List[int], la_percent_list: List[float],
 
 def main() -> None:
     # -------------------------
-    # CONFIG (edit these)
+    # CONFIG
     # -------------------------
     ROOT = Path(__file__).resolve().parents[2]
     DATASET_NAME = "6000scenes_no_bg"

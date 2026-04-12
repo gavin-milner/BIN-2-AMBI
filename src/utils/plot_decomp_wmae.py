@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
 # =============================================================================
-# CONFIGURATION — edit these paths for your experiment
+# CONFIGURATION — edit these paths for the chosen experiment
 # =============================================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]

@@ -90,7 +90,6 @@ MARKER_MEAN = "o"
 LINESTYLE = (0, (4, 3))
 
 # Per-model colours (in order: rotation, static, no_rot, ...)
-# Add or change hex codes to match your preference.
 MODEL_COLORS = [
     "#1f77b4",  # blue
     "#ff7f0e",  # orange

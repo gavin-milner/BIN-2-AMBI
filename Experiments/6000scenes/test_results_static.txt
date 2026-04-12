@@ -1,0 +1,210 @@
+===== TEST SET EVALUATION =====
+Batches evaluated: 75
+Total test clips evaluated: 600
+Normalized MSE (Global):    7.780373e-02
+Denormalized MSE (Global):  7.780373e-02
+Weighted Mean Angular Error (Global): 23.82°
+
+===== MSE PER GROUND TRUTH CHANNEL =====
+Channel              | Normalized MSE 
+--------------------------------------
+Diffuseness          | 1.017567e-02
+X-Intensity          | 7.237574e-02
+Y-Intensity          | 1.160523e-01
+Z-Intensity          | 1.126112e-01
+
+===== PERFORMANCE BY DIFFICULTY =====
+Level        | Count  | WMAE (deg)   | Norm MSE    
+-------------------------------------------------------
+1.0          | 111    | 29.86        | 1.022575e-01
+2.0          | 235    | 21.01        | 6.740899e-02
+3.0          | 131    | 23.98        | 7.892521e-02
+4.0          | 93     | 23.41        | 7.429825e-02
+5.0          | 18     | 23.89        | 7.485163e-02
+6.0          | 11     | 22.58        | 6.592551e-02
+7.0          | 1      | 43.30        | 1.690958e-01
+
+===== PER-DIFFICULTY DISTRIBUTION SUMMARY (PER SAMPLE) =====
+
+Level: 1.0 | Count: 111
+  WMAE  | Mean: 2.985821e+01° | Std: 9.607496e+00° | Min: 9.002934e+00° (scene: scene05420) | Max: 5.652136e+01° (scene: scene05963)
+        P50: 2.954139e+01° | P90: 4.233790e+01° | P95: 4.775846e+01° | P99: 5.104414e+01°
+  MSE   | Mean: 1.022575e-01 | Std: 3.456284e-02 | Min: 2.646555e-02 (scene: scene05420) | Max: 1.865514e-01 (scene: scene05963)
+        P50: 1.014745e-01 | P90: 1.462144e-01 | P95: 1.660210e-01 | P99: 1.840436e-01
+
+Level: 2.0 | Count: 235
+  WMAE  | Mean: 2.100995e+01° | Std: 1.165557e+01° | Min: 1.660128e+00° (scene: scene05693) | Max: 6.853169e+01° (scene: scene05928)
+        P50: 1.946082e+01° | P90: 3.527443e+01° | P95: 4.299000e+01° | P99: 5.775037e+01°
+  MSE   | Mean: 6.740899e-02 | Std: 4.452715e-02 | Min: 1.317072e-03 (scene: scene05693) | Max: 2.455582e-01 (scene: scene05928)
+        P50: 6.185358e-02 | P90: 1.243623e-01 | P95: 1.454163e-01 | P99: 2.272203e-01
+
+Level: 3.0 | Count: 131
+  WMAE  | Mean: 2.398424e+01° | Std: 1.062303e+01° | Min: 4.125035e+00° (scene: scene05729) | Max: 6.036970e+01° (scene: scene05583)
+        P50: 2.223146e+01° | P90: 3.752990e+01° | P95: 4.255254e+01° | P99: 5.537891e+01°
+  MSE   | Mean: 7.892521e-02 | Std: 4.784983e-02 | Min: 6.987203e-03 (scene: scene05733) | Max: 2.698101e-01 (scene: scene05486)
+        P50: 7.139237e-02 | P90: 1.324098e-01 | P95: 1.695923e-01 | P99: 2.511843e-01
+
+Level: 4.0 | Count: 93
+  WMAE  | Mean: 2.341275e+01° | Std: 8.350430e+00° | Min: 8.488537e+00° (scene: scene05887) | Max: 5.353399e+01° (scene: scene05502)
+        P50: 2.256017e+01° | P90: 3.441695e+01° | P95: 3.858620e+01° | P99: 4.226498e+01°
+  MSE   | Mean: 7.429825e-02 | Std: 3.321945e-02 | Min: 1.166137e-02 (scene: scene05647) | Max: 1.874246e-01 (scene: scene05502)
+        P50: 6.981142e-02 | P90: 1.175765e-01 | P95: 1.375225e-01 | P99: 1.528590e-01
+
+Level: 5.0 | Count: 18
+  WMAE  | Mean: 2.389229e+01° | Std: 7.541955e+00° | Min: 7.835769e+00° (scene: scene05958) | Max: 3.890479e+01° (scene: scene05768)
+        P50: 2.320672e+01° | P90: 3.215260e+01° | P95: 3.392592e+01° | P99: 3.790902e+01°
+  MSE   | Mean: 7.485162e-02 | Std: 3.036328e-02 | Min: 1.806734e-02 (scene: scene05958) | Max: 1.314501e-01 (scene: scene05768)
+        P50: 7.219206e-02 | P90: 1.093842e-01 | P95: 1.147819e-01 | P99: 1.281165e-01
+
+Level: 6.0 | Count: 11
+  WMAE  | Mean: 2.258371e+01° | Std: 5.920124e+00° | Min: 1.337473e+01° (scene: scene05552) | Max: 3.307331e+01° (scene: scene05495)
+        P50: 2.114975e+01° | P90: 3.044297e+01° | P95: 3.175814e+01° | P99: 3.281028e+01°
+  MSE   | Mean: 6.592551e-02 | Std: 2.472745e-02 | Min: 3.255679e-02 (scene: scene05552) | Max: 1.102912e-01 (scene: scene05495)
+        P50: 5.842217e-02 | P90: 9.876918e-02 | P95: 1.045302e-01 | P99: 1.091390e-01
+
+Level: 7.0 | Count: 1
+  WMAE  | Mean: 4.330104e+01° | Std: 0.000000e+00° | Min: 4.330104e+01° (scene: scene05982) | Max: 4.330104e+01° (scene: scene05982)
+        P50: 4.330104e+01° | P90: 4.330104e+01° | P95: 4.330104e+01° | P99: 4.330104e+01°
+  MSE   | Mean: 1.690958e-01 | Std: 0.000000e+00 | Min: 1.690958e-01 (scene: scene05982) | Max: 1.690958e-01 (scene: scene05982)
+        P50: 1.690958e-01 | P90: 1.690958e-01 | P95: 1.690958e-01 | P99: 1.690958e-01
+
+===== PERFORMANCE BY NUMBER OF EVENTS =====
+N Events     | Count  | WMAE (deg)   | Norm MSE    
+-------------------------------------------------------
+1            | 151    | 26.11        | 8.857859e-02
+2            | 220    | 21.72        | 6.965666e-02
+3            | 163    | 24.09        | 7.858146e-02
+4            | 51     | 24.87        | 7.771561e-02
+5            | 15     | 25.12        | 8.067533e-02
+
+===== PER-NUMBER-OF-EVENTS DISTRIBUTION SUMMARY (PER SAMPLE) =====
+
+N Events: 1 | Count: 151
+  WMAE  | Mean: 2.611253e+01° | Std: 1.390438e+01° | Min: 1.660128e+00° (scene: scene05693) | Max: 6.853169e+01° (scene: scene05928)
+        P50: 2.691270e+01° | P90: 4.356205e+01° | P95: 4.931005e+01° | P99: 6.238513e+01°
+  MSE   | Mean: 8.857858e-02 | Std: 5.125796e-02 | Min: 1.317072e-03 (scene: scene05693) | Max: 2.455582e-01 (scene: scene05928)
+        P50: 9.292864e-02 | P90: 1.462919e-01 | P95: 1.721139e-01 | P99: 2.266848e-01
+
+N Events: 2 | Count: 220
+  WMAE  | Mean: 2.171963e+01° | Std: 1.004019e+01° | Min: 3.111427e+00° (scene: scene05525) | Max: 5.501369e+01° (scene: scene05486)
+        P50: 2.050497e+01° | P90: 3.507123e+01° | P95: 3.932760e+01° | P99: 5.272056e+01°
+  MSE   | Mean: 6.965666e-02 | Std: 4.038350e-02 | Min: 2.179274e-03 (scene: scene05525) | Max: 2.698101e-01 (scene: scene05486)
+        P50: 6.538799e-02 | P90: 1.175873e-01 | P95: 1.353941e-01 | P99: 1.809130e-01
+
+N Events: 3 | Count: 163
+  WMAE  | Mean: 2.408751e+01° | Std: 9.224108e+00° | Min: 6.250713e+00° (scene: scene05528) | Max: 6.036970e+01° (scene: scene05583)
+        P50: 2.258973e+01° | P90: 3.573737e+01° | P95: 4.048941e+01° | P99: 5.429454e+01°
+  MSE   | Mean: 7.858146e-02 | Std: 4.055506e-02 | Min: 1.166137e-02 (scene: scene05647) | Max: 2.609697e-01 (scene: scene05583)
+        P50: 7.379436e-02 | P90: 1.177973e-01 | P95: 1.533679e-01 | P99: 2.171430e-01
+
+N Events: 4 | Count: 51
+  WMAE  | Mean: 2.487013e+01° | Std: 7.705141e+00° | Min: 7.835769e+00° (scene: scene05958) | Max: 4.128507e+01° (scene: scene05702)
+        P50: 2.462310e+01° | P90: 3.755809e+01° | P95: 3.884645e+01° | P99: 4.096427e+01°
+  MSE   | Mean: 7.771561e-02 | Std: 3.160306e-02 | Min: 1.806734e-02 (scene: scene05958) | Max: 1.498533e-01 (scene: scene05702)
+        P50: 7.330459e-02 | P90: 1.302240e-01 | P95: 1.358980e-01 | P99: 1.489430e-01
+
+N Events: 5 | Count: 15
+  WMAE  | Mean: 2.511685e+01° | Std: 8.336210e+00° | Min: 1.337473e+01° (scene: scene05552) | Max: 4.330104e+01° (scene: scene05982)
+        P50: 2.114975e+01° | P90: 3.469133e+01° | P95: 3.802932e+01° | P99: 4.224669e+01°
+  MSE   | Mean: 8.067532e-02 | Std: 3.709088e-02 | Min: 2.749192e-02 (scene: scene05762) | Max: 1.690958e-01 (scene: scene05982)
+        P50: 6.644781e-02 | P90: 1.184495e-01 | P95: 1.374506e-01 | P99: 1.627667e-01
+
+===== PERFORMANCE BY SNR BUCKET =====
+SNR Bucket           | Count  | WMAE (deg)   | Norm MSE    
+-----------------------------------------------------------------
+(-5.0, 5.0)          | 3      | 36.56        | 1.318624e-01
+(0.0, 10.0)          | 13     | 37.05        | 1.269867e-01
+(5.0, 15.0)          | 39     | 28.14        | 9.379606e-02
+(10.0, 20.0)         | 164    | 25.87        | 8.492965e-02
+(15.0, 25.0)         | 203    | 23.22        | 7.603735e-02
+(20.0, 30.0)         | 178    | 20.49        | 6.524568e-02
+
+===== PER-SNR-BUCKET DISTRIBUTION SUMMARY (PER SAMPLE) =====
+
+SNR Bucket: (-5.0, 5.0) | Count: 3
+  WMAE  | Mean: 3.656159e+01° | Std: 1.675307e+00° | Min: 3.423714e+01° (scene: scene05840) | Max: 3.812092e+01° (scene: scene05453)
+        P50: 3.732670e+01° | P90: 3.796208e+01° | P95: 3.804150e+01° | P99: 3.810504e+01°
+  MSE   | Mean: 1.318624e-01 | Std: 8.417805e-03 | Min: 1.204774e-01 (scene: scene05840) | Max: 1.405675e-01 (scene: scene05453)
+        P50: 1.345424e-01 | P90: 1.393625e-01 | P95: 1.399650e-01 | P99: 1.404470e-01
+
+SNR Bucket: (0.0, 10.0) | Count: 13
+  WMAE  | Mean: 3.704895e+01° | Std: 1.032605e+01° | Min: 1.505803e+01° (scene: scene05638) | Max: 5.312018e+01° (scene: scene05570)
+        P50: 3.878812e+01° | P90: 4.971485e+01° | P95: 5.194654e+01° | P99: 5.288546e+01°
+  MSE   | Mean: 1.269867e-01 | Std: 3.352546e-02 | Min: 6.032062e-02 (scene: scene05638) | Max: 1.824392e-01 (scene: scene05570)
+        P50: 1.388626e-01 | P90: 1.617753e-01 | P95: 1.700659e-01 | P99: 1.799646e-01
+
+SNR Bucket: (5.0, 15.0) | Count: 39
+  WMAE  | Mean: 2.813741e+01° | Std: 1.088087e+01° | Min: 5.691369e+00° (scene: scene05888) | Max: 5.353399e+01° (scene: scene05502)
+        P50: 2.731729e+01° | P90: 4.197988e+01° | P95: 5.006961e+01° | P99: 5.257750e+01°
+  MSE   | Mean: 9.379606e-02 | Std: 4.150364e-02 | Min: 8.770133e-03 (scene: scene05888) | Max: 1.874246e-01 (scene: scene05502)
+        P50: 9.096257e-02 | P90: 1.451048e-01 | P95: 1.754813e-01 | P99: 1.865619e-01
+
+SNR Bucket: (10.0, 20.0) | Count: 164
+  WMAE  | Mean: 2.587470e+01° | Std: 9.919612e+00° | Min: 5.941498e+00° (scene: scene05783) | Max: 4.939474e+01° (scene: scene05429)
+        P50: 2.591599e+01° | P90: 3.977216e+01° | P95: 4.217997e+01° | P99: 4.898096e+01°
+  MSE   | Mean: 8.492964e-02 | Std: 3.884371e-02 | Min: 9.862333e-03 (scene: scene05783) | Max: 1.786894e-01 (scene: scene05983)
+        P50: 8.407982e-02 | P90: 1.370019e-01 | P95: 1.538236e-01 | P99: 1.752949e-01
+
+SNR Bucket: (15.0, 25.0) | Count: 203
+  WMAE  | Mean: 2.321986e+01° | Std: 1.134294e+01° | Min: 2.656567e+00° (scene: scene05811) | Max: 6.853169e+01° (scene: scene05928)
+        P50: 2.173907e+01° | P90: 3.606670e+01° | P95: 4.310386e+01° | P99: 6.029273e+01°
+  MSE   | Mean: 7.603735e-02 | Std: 4.543398e-02 | Min: 2.179274e-03 (scene: scene05525) | Max: 2.609697e-01 (scene: scene05583)
+        P50: 7.022230e-02 | P90: 1.290828e-01 | P95: 1.462842e-01 | P99: 2.447118e-01
+
+SNR Bucket: (20.0, 30.0) | Count: 178
+  WMAE  | Mean: 2.048843e+01° | Std: 9.676955e+00° | Min: 1.660128e+00° (scene: scene05693) | Max: 5.957334e+01° (scene: scene05940)
+        P50: 1.944256e+01° | P90: 3.214983e+01° | P95: 3.698529e+01° | P99: 5.204166e+01°
+  MSE   | Mean: 6.524568e-02 | Std: 4.048983e-02 | Min: 1.317072e-03 (scene: scene05693) | Max: 2.698101e-01 (scene: scene05486)
+        P50: 6.078159e-02 | P90: 1.115982e-01 | P95: 1.223869e-01 | P99: 2.130641e-01
+
+===== Normalized MSE distribution (per sample) =====
+Count: 600 | Mean: 7.780372e-02 | Std: 4.334998e-02
+Min: 1.317072e-03 (scene: scene05693) | Max: 2.698101e-01 (scene: scene05486)
+P50: 7.320485e-02
+P90: 1.345041e-01
+P95: 1.520008e-01
+P99: 2.104538e-01
+
+===== WMAE distribution (per sample) =====
+Count: 600 | Mean: 2.382117e+01 | Std: 1.089086e+01
+Min: 1.660128e+00° (scene: scene05693) | Max: 6.853169e+01° (scene: scene05928)
+P50: 2.263166e+01°
+P90: 3.817863e+01°
+P95: 4.331409e+01°
+P99: 5.501891e+01°
+
+===== WITHIN-SCENE VARIATION (tile-wise MSE, averaged over channels) =====
+Each scene yields a distribution of (F x T) tile errors; we report the
+mean and std of that distribution, then summarise those across all scenes.
+Dataset-wide avg (F, T) MSE  map saved to: /content/drive/MyDrive/BIN2AMBI/experiments/6000scenes/CRNN_V15_ACCDOA_V4_Loss_STATIC/test_avg_tile_mse_map.npy
+Dataset-wide avg (F, T) WMAE map saved to: /content/drive/MyDrive/BIN2AMBI/experiments/6000scenes/CRNN_V15_ACCDOA_V4_Loss_STATIC/test_avg_tile_wmae_map.npy
+
+  Per-scene tile MSE mean  (distribution across scenes):
+    Mean: 7.780373e-02 | Std: 4.334999e-02
+    P50: 7.320485e-02
+    P90: 1.345041e-01
+    P95: 1.520008e-01
+    P99: 2.104538e-01
+
+  Per-scene tile MSE std   (spread of error *within* a scene):
+    Mean: 9.664454e-02 | Std: 3.808633e-02
+    P50: 9.583043e-02
+    P90: 1.329998e-01
+    P95: 1.557988e-01
+    P99: 2.327688e-01
+
+===== WITHIN-SCENE VARIATION (tile-wise WMAE, averaged over channels) =====
+
+  Per-scene tile WMAE mean (distribution across scenes):
+    Mean: 23.4848° | Std: 9.7985°
+    P50: 22.8054°
+    P90: 35.9986°
+    P95: 40.0807°
+    P99: 51.1286°
+
+  Per-scene tile WMAE std  (spread of error *within* a scene):
+    Mean: 21.9528° | Std: 6.6261°
+    P50: 22.2453°
+    P90: 28.2834°
+    P95: 32.4452°
+    P99: 43.9430°

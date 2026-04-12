@@ -1,0 +1,62 @@
+{
+  "experiment_name": "6000scenes",
+  "plot_title_suffix": "(W/Background)",
+  "metric_key": "per_scene_wmae",
+  "metric_display_name": "Per-Scene WMAE (\u00b0)",
+  "wilcoxon_alternative": "greater",
+  "wilcoxon_zero_method": "wilcox",
+  "comparisons": [
+    {
+      "comparison": "ACCDOA V4 Model W/Background vs ACCDOA V4 Model W/Background STATIC",
+      "model_a_name": "ACCDOA V4 Model W/Background",
+      "model_b_name": "ACCDOA V4 Model W/Background STATIC",
+      "split": "test",
+      "metric_key": "per_scene_wmae",
+      "n_common_scenes": 600,
+      "mean_model_a": 23.745705526036296,
+      "std_model_a": 10.41451666832794,
+      "mean_model_b": 23.821174410947545,
+      "std_model_b": 10.890862181216928,
+      "mean_paired_improvement": 0.07546888491124835,
+      "median_paired_improvement": -0.4823230484353207,
+      "std_paired_improvement": 4.875574249270768,
+      "p50_improvement": -0.4823230484353207,
+      "p90_improvement": 3.5648146221696986,
+      "p95_improvement": 6.142551402815795,
+      "p99_improvement": 24.959372633358637,
+      "n_improved": 243,
+      "n_worsened": 357,
+      "n_tied": 0,
+      "percent_improved": 40.5,
+      "percent_worsened": 59.5,
+      "percent_tied": 0.0,
+      "effect_sign_fraction": -0.19,
+      "wilcoxon_alternative": "greater",
+      "wilcoxon_zero_method": "wilcox",
+      "wilcoxon_statistic": 74676.0,
+      "wilcoxon_pvalue": 0.9998651053430113,
+      "sign_test": {
+        "n_nonzero": 600,
+        "n_positive": 243,
+        "n_negative": 357,
+        "pvalue": 0.9999987538669539,
+        "alternative": "greater"
+      },
+      "symmetry_check": {
+        "n": 600,
+        "skewness": 2.96014494217048,
+        "mean_minus_median_over_std": 0.11440538177220809,
+        "warning": "Paired differences may be strongly skewed / asymmetric for Wilcoxon: abs(skewness)=2.960 exceeds 1.000. Consider interpreting Wilcoxon alongside the sign test and the histogram."
+      },
+      "histogram_path": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_histograms/accdoa_v4_model_w_background_vs_accdoa_v4_model_w_background_static_per_scene_wmae_hist.pdf"
+    }
+  ],
+  "group_plots": {
+    "n_events_plot": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_num_sources_with_std.pdf",
+    "snr_plot": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_snr_bucket_with_std.pdf",
+    "difficulty_plot": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_difficulty_with_std.pdf",
+    "boxplot_n_events": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_num_sources_boxplot.pdf",
+    "boxplot_ambiguity": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_ambiguity_category_boxplot.pdf",
+    "snr_nsources_plot": "/Users/gavinmilner/Desktop/School Work/BIN2AMBI/experiments/6000scenes/significance_plots/wmae_vs_nsources_per_snr_bucket.pdf"
+  }
+}

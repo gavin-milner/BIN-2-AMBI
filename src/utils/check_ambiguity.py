@@ -145,17 +145,6 @@ def visualize_ambiguity_scatter(csv_path: Path):
     print(f"All Ambiguous:      {category_counts['All Ambiguous']} sources")
     print(f"Total:              {sum(category_counts.values())} sources")
     
-    # Check if distribution looks right
-    print("\n" + "=" * 80)
-    print("INTERPRETATION")
-    print("=" * 80)
-    print("✓ GREEN points should cluster near 0° (front) and 180° (back)")
-    print("✓ RED points should be scattered (all sources in those scenes are in ambiguous zones)")
-    print("✓ ORANGE points should be mixed (some sources near 0°/180°, others scattered)")
-    print("\nIf ALL points cluster at 0°/180°, your threshold (±30°) is correct.")
-    print("If you see GREEN points at 0°/180°, your threshold is too narrow.")
-    print("If you see RED/ORANGE scattered everywhere, your threshold is too broad.")
-
 
 if __name__ == "__main__":
     import sys

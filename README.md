@@ -50,6 +50,10 @@ The repository preserves the **core training workflow and evaluation methodology
 │   ├── AmbiScaper/         # (external) Ambisonics scene generation
 │   ├── BINASPECT/          # (external) Binaural audio analysis
 │   └── DirAC_Synthesis/    # Parametric spatial audio synthesis
+|── resources/
+│   ├── HRTF/               # Head related transfer functions
+│   ├── ht_captures/        # Head rotation signals
+│   ├── ht_synthetic/       # Synthetically generated head rotation signals
 ├── src/
 │   ├── Analysis/           # Feature extraction and analysis pipeline
 │   ├── Evaluation/         # AMBIQUAL evaluation scripts
@@ -66,3 +70,4 @@ The repository preserves the **core training workflow and evaluation methodology
 | AMBIQUAL | https://github.com/QxLabIreland/Ambiqual |
 | AmbiScaper | https://github.com/Nilson/ambiscaper |
 | BINASPECT | https://github.com/QxLabIreland/Binaspect |
+

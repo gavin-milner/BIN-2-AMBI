@@ -68,7 +68,7 @@ class FeatureExtractor:
                 item = q.get()
                 if item is None:
                     break
-                self.process_file(item)  # your existing processing method
+                self.process_file(item) # process the file
                 pbar.update(1)
             pbar.close()
 
