@@ -8,7 +8,7 @@ from pathlib import Path
 
 # ── 1. Load data ──────────────────────────────────────────────────────────────
 # Run normally and drag-and-drop a CSV onto the script, or pass it as an arg:
-#   python mushra_boxplots.py /path/to/your/data.csv
+#   python mushra_boxplots.py /path/to/data.csv
 # If no file is given, falls back to mushra.csv in the same folder as the script.
 if len(sys.argv) > 1:
     csv_path = Path(sys.argv[-1])

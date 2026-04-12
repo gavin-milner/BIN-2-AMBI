@@ -16,6 +16,8 @@ The repository includes:
 - Configuration files  
 - Binaural Analysis preprocessing utilities  
 
+After adding a dataset, the code can be run by running each of the cells in the BIN2AMBI_Train.ipynb script.
+
 ---
 
 ## 📝 Repository Scope

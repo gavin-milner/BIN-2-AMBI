@@ -875,7 +875,7 @@ def plot_group_metric_boxplot(model_jsons, group_name, output_path):
 
 
 # ============================================================
-# NEW PLOT: WMAE vs N SOURCES PER SNR BUCKET (rotation model)
+# WMAE vs N SOURCES PER SNR BUCKET (rotation model)
 # ============================================================
 
 def plot_wmae_by_nsources_per_snr_bucket(rotation_json, output_path):
